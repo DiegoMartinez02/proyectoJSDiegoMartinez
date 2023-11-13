@@ -32,7 +32,7 @@ const articulos = [
         categoria: 'Cocina',
         descripcion: 'Abrelatas',
         precio: 'Regístrate para recibir tu catálogo',
-        imagen: './img/abrelata.JPG',
+        imagen: './img/abrelata.jpg',
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ const articulos = [
         categoria: 'Varios',
         descripcion: 'Destapador magnético',
         precio: 'Regístrate para recibir tu catálogo',
-        imagen: './img/destapador.JPG',
+        imagen: './img/destapador.jpg',
     },
     {
         id: 9,
@@ -74,7 +74,7 @@ const articulos = [
         categoria: 'Cocina',
         descripcion: 'Exprimidor con protector',
         precio: 'Regístrate para recibir tu catálogo',
-        imagen: './img/exprimidor.JPG',
+        imagen: './img/exprimidor.jpg',
     },
     {
         id: 12,
