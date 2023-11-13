@@ -2,14 +2,145 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-h1 {
-    text-align: center;
-    padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
 }
-.centrado {
+header{
+    background-color:rgba(95, 158, 160, 0.699);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+header h1{
+    font-weight:normal;
+    padding: 1rem;
+    font-size: 36px;
+    color: black;
+}
+.menu{
+    background-color: rgb(221, 221, 221);
+}
+.menu li{
+    display: inline-block;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style:solid;
+    background-color: rgb(255, 221, 176);
+}
+.menu li a:hover{
+    background-color: rgb(248, 229, 205);
+}
+footer{
     text-align: center;
+    background-color: rgba(95, 158, 160, 0.699);
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+h2{
     margin: 1rem;
+}
+.ofertas {
+    display:inline-flex;
+    margin: 2rem;
+    background-color:antiquewhite;
+}
+.ofertas div{
+    margin: 3rem;
+    border-style:solid;
+    border-color: gray;
+    background-color: white;
+}
+.seccionProducto img{
+    width: 200px;
+}
+.seccionProducto{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    border-style:solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    width: 220px;
+}
+main{
+    text-align: center;
+}
+.categoria{
+    background-color: rgb(255, 221, 176);
+    margin: 0.25rem;
+    width: 210px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+.categoria:hover{
+    background-color: rgb(248, 229, 205);
+}
+.descripcion{
+    font-size:large;
+
+}
+.productosInfoDiv{
+    background-color:rgb(221, 221, 221);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.botonVer{
+    border-style:groove;
+    background-color: rgba(95, 158, 160, 0.699);
+    border-color: green;
+    border-width: 2px;
+    margin: 0.15rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 180px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black
+}
+.botonVer:hover{
+    background-color: rgba(140, 206, 207, 0.699);
+}
+.nosotros section p{
+    margin: 2rem;
+    font-size: larger;
+    text-align: justify;
+}
+.productoDetalles section img{
+    width: 400px;
+}
+.productoJson{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    border-style:solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    width: 220px;
+}
+.productoJson img{
+    width: 200px;
 }

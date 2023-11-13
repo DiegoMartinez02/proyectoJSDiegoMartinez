@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
     <script defer src="./js/script.js"></script>
-    <title>Mayorista</title>
+    <title>Mayorista | Inicio</title>
 
 </head>
-<body>
-    <main>
-        <section class="centrado">
-            <h1>Bienvenido a Mayorista</h1>
-        </section>
-
-        <section class="ofertas, centrado">
-            <h2>¡Ofertas de la semana!</h2>
-            <div class="producto1">
-                <img src="./img/ducha.jpg" alt="duchero" width="200px">
-            </div>
-            <div class="producto2">
-                <img src="./img/organizador.JPG" alt="organizador" width="200px">
-            </div>
-            <div class="producto3">
-                <img src="./img/shots.jpg" alt="dispensador de shots" width="200px">
-            </div>
-        </section>
-            
+<body onload="catalogo()">
+    <main class="inicio">
+        <section>
+            <header>
+                <h1>Bienvenido a Mayorista</h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="./paginas/nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./paginas/baño.html">Baño</a></li>
+                        <li><a href="./paginas/cocina.html">Cocina</a></li>
+                        <li><a href="./paginas/varios">Varios</a></li>
+                        <li><a href="./paginas/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>¡Explora nuestros productos 🤩!</h2>
+        </section>        
     </main>
+    <footer>
+        <h3>Mayorista | 🛒 Compra mínima: $5.000 por pedido | Registrate para recibir tu catálogo con tus precios 💲</h3>
+    </footer>
+
 </body>
 </html>
